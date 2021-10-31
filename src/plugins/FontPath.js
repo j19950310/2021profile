@@ -52,7 +52,7 @@ export default class Path {
             if (this[node.type]) {
                 this[node.type](node)
             } else {
-                console.log(node)
+                // console.log(node)
             }
         })
         if (this.p5.mouseIsPressed) {

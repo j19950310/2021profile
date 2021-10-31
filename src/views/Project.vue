@@ -34,14 +34,12 @@ export default {
     },
     mounted () {
         const s = p => {
-            let fontGenerator
             let fontPath
 
             p.setup = () => {
                 // font, text, x, y, fontSize
                 const path = this.$font.getPath(this.project.title, PADDING, 200, 100)
                 fontPath = new FontPath(path.commands, p)
-                console.log(fontPath)
                 p.resizeCanvas(fontPath.maxX + PADDING, fontPath.maxY + PADDING)
                 p.background(100)
                 p.noFill()
@@ -59,7 +57,6 @@ export default {
                 p.resizeCanvas(p.windowWidth, p.windowHeight)
             }
         }
-
         this.instance = new this.$p5(s, this.$refs.canvas) // invoke p5
     },
     unmounted () {

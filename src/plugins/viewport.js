@@ -30,7 +30,6 @@ export default class Viewport {
         this.height = window.innerHeight
         this.isPc = os
         this.isIE = name
-        console.log(this.isDesktop)
     }
 
     set isDesktop (val) {
