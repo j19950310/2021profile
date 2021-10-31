@@ -20,7 +20,11 @@
     </div>
 </template>
 <script>
+import MatrixBox from '@/components/MatrixBox.vue'
 export default {
+    components: {
+        MatrixBox,
+    },
     props: {
         progress: {
             type: Number,

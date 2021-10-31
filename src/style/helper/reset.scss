@@ -178,8 +178,8 @@ audio,
 canvas
 {
     display: inline-block;
-    *display: inline;
-    *zoom: 1;
+    // *display: inline;
+    // *zoom: 1;
     max-width: 100%;
 }
 
@@ -275,7 +275,7 @@ fieldset {
  */
 
 legend {
-    *margin-left: -7px; /* 3 */
+    // *margin-left: -7px; /* 3 */
     padding: 0;
     white-space: normal; /* 2 */
     border: 0; /* 1 */
@@ -295,7 +295,7 @@ textarea {
     margin: 0; /* 2 */
     font-size: 100%; /* 1 */
     vertical-align: baseline; /* 3 */
-    *vertical-align: middle; /* 3 */
+    // *vertical-align: middle; /* 3 */
 }
 
 /**
@@ -336,7 +336,7 @@ input[type='reset'],
 input[type='submit'] {
     -webkit-appearance: button; /* 2 */
     cursor: pointer; /* 3 */
-    *overflow: visible;  /* 4 */
+    // *overflow: visible;   /* 4 */
 }
 
 /**
@@ -363,8 +363,8 @@ button {
 input[type='checkbox'],
 input[type='radio'] {
     padding: 0; /* 2 */
-    *width: 13px; /* 3 */
-    *height: 13px; /* 3 */
+    // *width: 13px; /* 3 */
+    // *height: 13px; /* 3 */
     box-sizing: border-box; /* 1 */
 }
 
