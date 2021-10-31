@@ -9,6 +9,7 @@ import viteSvgIcons from 'vite-plugin-svg-icons'
 export default (context) => {
     process.env = { ...process.env, ...loadEnv(context.mode, process.cwd()) }
     return defineConfig({
+        base: './',
         build: {
             cssCodeSplit: true,
         },
