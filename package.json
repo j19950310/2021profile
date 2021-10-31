@@ -1,0 +1,42 @@
+{
+  "name": "2021-f2e",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint:js": "eslint --fix --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint:style": "stylelint --fix \"**/*.{scss,css}\" --ignore-path .gitignore",
+    "lint": "yarn lint:js && yarn lint:style"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-scroll-lock": "^4.0.0-beta.0",
+    "detect-browser": "^5.2.1",
+    "gsap": "^3.8.0",
+    "lodash-es": "^4.17.21",
+    "opentype.js": "^1.3.4",
+    "p5": "^1.4.0",
+    "vite-plugin-svg-icons": "^1.0.5",
+    "vue": "^3.2.16",
+    "vue-router": "^4.0.12",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "@vue/eslint-config-standard": "^6.1.0",
+    "babel-eslint": "^10.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "eslint-plugin-vue": "^7.20.0",
+    "sass": "~1.32.13",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-order": "^4.1.0",
+    "unplugin-vue-components": "^0.16.0",
+    "vite": "^2.6.4",
+    "vite-plugin-eslint": "^1.3.0"
+  }
+}
